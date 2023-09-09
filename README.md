@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @RaynaFD
 -I'm enrolled in a Web Development Program.
 -I am 28 years old.
--My hobbies are video games, painting, cat, and cooking.
-
+-My hobbies are video games, painting, cat petting, and cooking.
+-I don't like puzzles but I love the feeling of solving them.
 
 <!---
 RaynaFD/RaynaFD is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
