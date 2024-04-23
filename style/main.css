@@ -8,30 +8,35 @@ body {
 #navbar{
     background-color: rgb(38, 50, 47);
     display: flex;
-    width: 500px;
     min-width: fit-content;
-    justify-content: space-around;
+    border-radius: 25px;
+    justify-items: space-around;
+    padding: 20px;
 }
 
 #chibiMe{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 15px;
+    margin: 45px;
 }
 
 #navbar a{
     text-decoration: none;
     color: white;
+    
 }
 
 #navbar:hover{
     transform: scale(1.1);
 }
 
-#header{
+#navbarHolder a:hover{
+  color: rgb(39, 184, 150);
+}
+
+#header, .navbar{
     display: flex;
-    background-color: rgb(38, 50, 47);
     width: 100%;
     color:antiquewhite;
     justify-content: center;
@@ -53,3 +58,19 @@ body {
     justify-content: center;
 
 }
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
