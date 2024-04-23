@@ -1,0 +1,30 @@
+
+#body{
+    background-image: url("images/v760-toon-86.jpg");
+    overflow: scroll;
+}
+
+.saved{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 15px;
+
+}
+
+#favButton, #submit{
+    background: linear-gradient(to bottom, #ffcccc 0%, #d699ff 100%);
+     border-color:#d699ff ;
+    color:#131014 ;
+    border-radius: 5px;
+    height:30px;
+}
+
+.fav{
+    display:flex;
+    flex-direction: column;
+    
+    }
