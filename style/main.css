@@ -72,5 +72,28 @@ body {
     flex-direction: column;
     width: 50%;
     justify-content: space-evenly;
+    margin: 10px;
 }
 
+.form_submit{
+background-color: rgb(39, 184, 150);
+margin: 20px;
+border-radius: 25px
+}
+
+.form_submit:hover{
+    background-color: rgb(38, 50, 47);
+    color: white;
+}
+
+/* projects need to be more dynamic add smaller viewport display #projectsPreview*/
+
+@media screen and (max-width: 900px){
+    .projects_panel{
+        flex-direction: column;
+    }
+    #contact-form{
+        width: 80%;
+    }
+    
+}
