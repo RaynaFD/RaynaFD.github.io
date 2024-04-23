@@ -9,7 +9,7 @@
         (function() {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-              publicKey: service_e9eg5vd,
+              publicKey: "service_e9eg5vd",
             });
         })();
     </script>
@@ -23,7 +23,7 @@
                             console.log('SUCCESS!');
                         }, (error) => {
                            error_text= console.log('FAILED...', error);
-                           $error_message = document.getElementById('.error_message');
+                           $error_message = document.getElementById('error_message');
                            $error_message.textContent = error_text;
                            $error_message.removeClass('hidden');
                         });
