@@ -9,7 +9,7 @@
         (function() {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-              publicKey: "msfVWXPmOnS_YxkKR",
+              publicKey: "service_e9eg5vd",
             });
         })();
     </script>
@@ -22,7 +22,10 @@
                         .then(() => {
                             console.log('SUCCESS!');
                         }, (error) => {
-                            console.log('FAILED...', error);
+                           error_text= console.log('FAILED...', error);
+                           $error_message = document.getElementById('.error_message');
+                           $error_message.Text = error_text;
+                           $error_message.removeClass('hidden');
                         });
                 });
             }
@@ -41,7 +44,7 @@
         <textarea name="message"></textarea>
         <input type="submit" value="Send">
     </form>
-    
+    <div id ="error_message" class="hidden alert-danger"></div>
     <p><a href="https://www.linkedin.com/in/rayna-farr-dutchin-4333312ba/">LinkedIn</a></p>
     
     
