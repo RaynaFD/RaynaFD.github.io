@@ -1,0 +1,27 @@
+﻿.userMessage {
+    width:100%;
+    
+}
+
+body{
+    background-color: paleturquoise;
+    display: flex;
+    justify-content:center;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    background-color:aliceblue;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 25px;
+    min-height: 300px;
+    max-height: fit-content;
+    justify-content: space-around;
+}
+header{
+    border:10px solid turquoise;
+    width: 100%;
+    text-align:center;
+    
+}
